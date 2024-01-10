@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<link rel="stylesheet" href="css/bootstrap.css"></link>
+<style>
+  #frm{
+     width:500px;
+     margin:auto;
+     margin-top:100px;
+  }
+  marquee{
+     margin-top:10px;
+  }
+</style>
+</head>
+<body class="container-fluid">
+<marquee><h2 class="text-primary">User Management System</h2></marquee>
+<form action="register" method="post" class="form card" id="frm">
+<h2 class="bg-danger text-white card-header">Registration Form</h2>
+<table class="table table-hover">
+<tr>
+<td>Name</td>
+<td><input type="tel" name="userName" required></td>
+</tr>
+<tr>
+<td>Email</td>
+<td><input type="email" name="email" required></td>
+</tr>
+<tr>
+<td>Mobile</td>
+<td><input type="text" name="mobile" required></td>
+</tr>
+<tr>
+<td>DOB</td>
+<td><input type="date" name="dob" required></td>
+</tr>
+<tr>
+<td>City</td>
+<td><select name="city">
+<option value="Select City">Select City</option>
+<option value="Agra">Agra</option>
+<option value="Ahemdabad">Ahemdabad</option>
+<option value="Ajmer">Ajmer</option>
+<option value="Amravati">Amravati</option>
+<option value="Amritsar">Amritsar</option>
+<option value="Banglore">Banglore</option>
+<option value="Bhopal">Bhopal</option>
+<option value="Bhubaneswar">Bhubaneswar</option>
+<option value="Chandigarh">Chandigarh</option>
+<option value="Coimbatore">Coimbatore</option>
+<option value="Delhi">Delhi</option>
+<option value="Gandhinagar">Gandhinagar</option>
+<option value="Gaya">Gaya</option>
+<option value="Guwahati">Guwahati</option>
+<option value="Guntur">Guntur</option>
+<option value="Haridwar">Haridwar</option>
+<option value="Hyderabad">Hyderabad</option>
+<option value="Imphal">Imphal</option>
+<option value="Indore">Indore</option>
+<option value="Jaipur">Jaipur</option>
+<option value="Jalandhar">Jalandhar</option>
+<option value="Jammu">Jammu</option>
+<option value="Jhansi">Jhansi</option>
+<option value="Jharkhand">Jharkhand</option>
+<option value="Jodhpur">Jodhpur</option>
+<option value="Kanpur">Kanpur</option>
+<option value="Kota">Kota</option>
+<option value="Lucknow">Lucknow</option>
+<option value="Ludhiana">Ludhiana</option>
+<option value="Mathura">Mathura</option>
+<option value="Meerut">Meerut</option>
+<option value="Mumbai">Mumbai</option>
+<option value="Mysore">Mysore</option>
+<option value="Nagpur">Nagpur</option>
+<option value="Nashik">Nashik</option>
+<option value="Noida">Noida</option>
+<option value="Panipat">Panipat</option>
+<option value="Panvel">Panvel</option>
+<option value="Patna">Patna</option>
+<option value="Puducherry">Puducherry</option>
+<option value="Prayagraj">Prayagraj</option>
+<option value="Pune">Pune</option>
+<option value="Rajkot">Rajkot</option>
+<option value="Ranchi">Ranchi</option>
+<option value="Rohtak">Rohtak</option>
+<option value="Surat">Surat</option>
+<option value="Thiruvananthapuram">Thiruvananthapuram</option>
+<option value="Varanasi">Varanasi</option>
+<option value="Vijaywada">Vijaywada</option>
+<option value="Visakhapatnam">Visakhapatnam</option>
+</select></td>
+</tr>
+<tr>
+<td>Gender</td>
+<td><input type="radio" name="gender" value="male">Male &nbsp;
+<input type="radio" name="gender" value="female">Female &nbsp;
+<input type="radio" name="gender" value="others">Others 
+</td>
+</tr>
+<tr class="card-footer">
+<td><button type="submit" class="btn btn-outline-success">Register</button></td>
+<td><button type="reset" class="btn btn-outline-danger">cancel</button></td>
+</tr>
+</table>
+<button class="btn btn-outline-success d-block"><a href="showdata">Show Users</a></button>
+</form>
+</body>
+</html>
